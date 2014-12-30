@@ -1,0 +1,7 @@
+sleepover:  
+  build: .
+  command: rails s
+  volumes:
+    - .:/var/www/sleepover
+  ports:
+    - "3000:3000"
